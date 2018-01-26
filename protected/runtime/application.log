@@ -1,0 +1,38 @@
+2018/01/25 14:09:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in D:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 D:\xampp\htdocs\yii\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\xampp\htdocs\yii\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\xampp\htdocs\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 D:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 D:\xampp\htdocs\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\yiitest1\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiitest1/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/yiitest1/
+---
+2018/01/25 14:10:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in D:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 D:\xampp\htdocs\yii\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\xampp\htdocs\yii\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\xampp\htdocs\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 D:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 D:\xampp\htdocs\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\yiitest1\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiitest1/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/yiitest1/index.php?r=site/page&view=buttons_and_icons
+---
+2018/01/25 14:57:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in D:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 D:\xampp\htdocs\yii\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yiitest1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest1/index.php?r=login
+---
